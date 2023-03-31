@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon"  href="imagens/icone2.png">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="">
+    <title>Game Station</title>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Petz</div>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+        <ul class="button">
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </nav>
+
+    <div class="wrapper">
+        <div class="slide-wrapper" data-slide="wrapper">
+            <button class="slide-nav-button slide-nav-previous fas fa-chevron-left" data-slide="nav-previous-button"></button>
+            <button class="slide-nav-button slide-nav-next fas fa-chevron-right" data-slide="nav-next-button"></button>
+            <div class="slide-list" data-slide="list">
+                <div class="slide-item" data-slide="item" data-index="0">
+                    <div class="slide-content">
+                        <img class="slide-image" src="img/banho1.jpg" alt="halo5"/>
+                        <div class="slide-description">
+                            <h3>Banho e Tosa</h3>
+                            <p</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="1">
+                    <div class="slide-content">
+                        <img class="slide-image" src="img/petsitter.jpg" alt="hitman3"/>
+                        <div class="slide-description">
+                            <h3>PetSitter</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="2">
+                    <div class="slide-content">
+                        <img class="slide-image" src="img/natacao4.jpg" alt="Call of Duty"  />
+                        <div class="slide-description">
+                            <h3>Natacao</h3>
+                            <p</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="3">
+                    <div class="slide-content">
+                        <img class="slide-image" src="img/vet3.jpg" alt="GTA V" />
+                        <div class="slide-description">
+                            <h3>Veterinario</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="4">
+                    <div class="slide-content">
+                        <img class="slide-image" src="img/creche2.png" alt="Gears 6" />
+                        <div class="slide-description">
+                            <h3>Creche</h3>
+                            <p</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="5">
+                    <div class="slide-content">
+                        <img class="slide-image" src="img/agility1.jpg" alt="Mortal Kombat" />
+                        <div class="slide-description">
+                            <h3>Agility</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="6">
+                    <div class="slide-content">
+                        <img class="slide-image" src="img/adt5.jpg" alt="The Last of Us" />
+                        <div class="slide-description">
+                            <h3>Adocao</h3>
+                            <p</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="7">
+                    <div class="slide-content">
+                        <img class="slide-image" src="img/hotel5.jpeg" alt="Fortnite" />
+                        <div class="slide-description">
+                            <h3>Hotel</h3>
+                            <p</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-controls" data-slide="controls-wrapper">
+            </div>
+        </div>
+    </div>
+    <script src="menu.js"></script>
+    <script src="slider.js"></script>
+    <script>
+        initSlider({
+            autoPlay: true,
+            startAtIndex: 0,
+            timeInterval: 2000
+        })
+    </script>
+</body>
+</html>
